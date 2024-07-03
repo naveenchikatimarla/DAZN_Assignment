@@ -1,0 +1,20 @@
+# Terraform State files
+*.tfstate
+*.tfstate.backup
+
+# Terraform variables files
+*.tfvars
+
+# Terraform directories
+.terraform/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# IDE configuration files
+.vscode/
+.idea/
