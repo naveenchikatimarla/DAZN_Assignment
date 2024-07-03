@@ -37,8 +37,7 @@ DAZN_Assignment/
 
 1. **Clone the Repository**
 
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/DAZN-DevOps-Assignment.git] 
-             (https://github.com/naveenchikatimarla/DAZN_Assignment.git)
+   git clone https://github.com/naveenchikatimarla/DAZN_Assignment.git
 
    cd DAZN-DevOps-Assignment
 
