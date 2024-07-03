@@ -41,7 +41,14 @@ DAZN_Assignment/
 
    cd DAZN_Assignment
 
-3. **Build and Push Docker Image**
+2. **Add SSH Key:**
+
+   Ensure your SSH key is added to the AWS EC2 key pairs before deploying the Terraform configuration. Replace 
+   YOUR_KEY_NAME with the name of your key pair.
+
+   aws ec2 import-key-pair --key-name "YOUR_KEY_NAME" --public-key-material file://~/.ssh/id_rsa.pub
+
+   3. **Build and Push Docker Image**
 
 **Note** : In case Terraform automatically did not push and pull the code follow below steps
 
@@ -50,14 +57,14 @@ docker build -t webimage .
 docker tag webimage:latest YOUR_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/webimage:latest
 docker push YOUR_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/webimage:latest
 
-3.**Terraform Setup**
+4.**Terraform Setup**
    Initialize Terraform, plan, and apply the configuration:
 
    terraform init
    terraform plan
    terraform apply
 
-4. **Output**
+5. **Output**
    
 After applying the Terraform configuration, the following resources will be created:
 
@@ -89,6 +96,7 @@ terraform destroy
 
 **Conclusion**
 This assignment demonstrates the deployment of a Dockerized web application on AWS using Terraform. The setup includes building and pushing a Docker image to ECR, creating a VPC, VM instance, and Load Balancer, and running the application on the VM instance.
+
 Please let me know if you need any further information or clarification.
 
 Thanks,
