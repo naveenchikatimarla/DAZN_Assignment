@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the home assignment for the DevOps role at DAZN. The assignment involves deploying a Dockerized web application on AWS infrastructure using Terraform. The infrastructure includes an ECR repository, a VPC with necessary networking resources, a VM instance, and a Load Balancer.
+The assignment involves deploying a Dockerized web application on AWS infrastructure using Terraform. The infrastructure includes an ECR repository, a VPC with necessary networking resources, a VM instance, and a Load Balancer.
 
 ## Project Structure
 DAZN_Assignment/
