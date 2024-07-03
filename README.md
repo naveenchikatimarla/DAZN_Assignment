@@ -39,7 +39,7 @@ DAZN_Assignment/
 
    git clone https://github.com/naveenchikatimarla/DAZN_Assignment.git
 
-   cd DAZN-DevOps-Assignment
+   cd DAZN_Assignment
 
 3. **Build and Push Docker Image**
 
