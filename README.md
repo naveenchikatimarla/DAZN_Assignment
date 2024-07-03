@@ -37,10 +37,12 @@ DAZN_Assignment/
 
 1. **Clone the Repository**
 
-   git clone https://github.com/YOUR_GITHUB_USERNAME/DAZN-DevOps-Assignment.git
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/DAZN-DevOps-Assignment.git] 
+             (https://github.com/naveenchikatimarla/DAZN_Assignment.git)
+
    cd DAZN-DevOps-Assignment
 
-2. **Build and Push Docker Image**
+3. **Build and Push Docker Image**
 
 **Note** : In case Terraform automatically did not push and pull the code follow below steps
 
