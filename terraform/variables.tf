@@ -1,6 +1,6 @@
 variable "region" {
   description = "The AWS region to deploy the infrastructure"
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
 
 variable "account_id" {
@@ -10,7 +10,7 @@ variable "account_id" {
 
 variable "ami" {
   description = "The AMI to use for the EC2 instance"
-  default     = "ami-0bd01824d64912730"
+  default     = "ami-0387a0aa73c3fd5de"
 }
 
 variable "instance_type" {
@@ -25,5 +25,5 @@ variable "key_name" {
 
 variable "ssh_cidr_blocks" {
   description = "CIDR blocks allowed to connect via SSH"
-  default     = ["115.98.200.249/32"]
+  default     = ["115.98.24.238/32"]
 }
